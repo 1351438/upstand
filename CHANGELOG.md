@@ -4,6 +4,23 @@ All notable releases of Upstand are recorded here. Release tags use semantic ver
 
 ## Unreleased
 
+## 0.14.3 - 2026-09-20
+
+Advance the product patch version for the corrected release verification workflow.
+
+
+## 0.14.2 - 2026-09-19
+
+Remove the private workspace dependency from the published CLI manifest so stable npm releases remain installable outside the monorepo.
+
+
+Build the CLI before running the release package contract so the immutable release verification covers the bundled publish artifact.
+
+## 0.14.1 - 2026-09-19
+
+Bundle the private domain configuration parser into the published CLI so npm consumers never receive an unresolved workspace dependency.
+
+
 ## 0.14.0 - 2026-09-19
 
 Add production-oriented bare host builds with automatic framework and runtime detection, explicit repository and UI overrides, portable Docker packaging, richer `upstand.json` configuration, local CLI validation commands, and desktop-local source builds that deploy only to configured remote servers.

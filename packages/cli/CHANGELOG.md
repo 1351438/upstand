@@ -1,5 +1,23 @@
 # @upstand/cli
 
+## 0.3.3
+
+### Patch Changes
+
+- [#537](https://github.com/UpstandPlatform/upstand/pull/537) [`1ce75e8`](https://github.com/UpstandPlatform/upstand/commit/1ce75e84e50f9c5391f5d89380aa1d16f9ed1684) Thanks [@mhbdev](https://github.com/mhbdev)! - Build the CLI before running the release package contract so the immutable release verification covers the bundled publish artifact.
+
+## 0.3.2
+
+### Patch Changes
+
+- [#535](https://github.com/UpstandPlatform/upstand/pull/535) [`20b6f5a`](https://github.com/UpstandPlatform/upstand/commit/20b6f5a914313a3865faf4dba3743ddb7008a985) Thanks [@mhbdev](https://github.com/mhbdev)! - Remove the private workspace dependency from the published CLI manifest so stable npm releases remain installable outside the monorepo.
+
+## 0.3.1
+
+### Patch Changes
+
+- [#533](https://github.com/UpstandPlatform/upstand/pull/533) [`d6bd946`](https://github.com/UpstandPlatform/upstand/commit/d6bd94657f2ef0366b5eaf8c114e30974e5996c1) Thanks [@mhbdev](https://github.com/mhbdev)! - Bundle the private domain configuration parser into the published CLI so npm consumers never receive an unresolved workspace dependency.
+
 ## 0.3.0
 
 ### Minor Changes
